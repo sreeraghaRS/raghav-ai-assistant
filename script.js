@@ -10,7 +10,7 @@ async function askRaghav() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": "Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  // your actual key
+        "Authorization": "Bearer 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"  // your actual key
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
