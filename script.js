@@ -10,7 +10,7 @@ async function askRaghav() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": "Bearer YOUR_API_KEY"
+        "Authorization": "Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  // your actual key
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
